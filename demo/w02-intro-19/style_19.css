@@ -1,0 +1,13 @@
+body {
+  background-color: #33efdd;
+}
+
+
+.container{
+background-color: #fff;
+max-width: 500px;
+width: 80%;
+margin: 30px auto;
+border: 2px solid rgb(54, 181, 68);
+padding: 16px 30px 24px 30px ;
+}
