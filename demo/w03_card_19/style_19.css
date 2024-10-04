@@ -1,11 +1,61 @@
 body{
-  background-color: rgb(149, 228, 241);
+  background-color: rgb(155, 218, 249);
 }
 
+
+.card{
+  background-color: #fff;
+  max-width: 300px;
+  border:2px solid  transparent ;
+  margin: 32px auto;
+  padding: 24px 32px ;
+  text-align: center;
+border-radius: 15px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+}
+
+.card-1{
+  border-color: rgba(89, 243, 140, 0.5)
+;
+}
+
+.card-2{
+  border-color:rgba(138, 43, 226, 0.5)
+ ;
+}
 
 .icon{
-  width: 50px;
-  height: 50px;
-  background-color: bisque;
-  border-radius: 50%;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+margin: 0 auto;
 }
+
+.card-1 .icon{
+ background-color: rgb(89, 243, 140);
+}
+.card-2 .icon{
+  background-color: blueviolet;
+}
+
+.btn{
+  text-transform:capitalize ;
+font-size: 0.7rem ;
+font-weight: 550;
+padding: 8px 16px ;
+border-radius: 20px;
+border-color: transparent;
+}
+
+.btn-1{
+  color: rgb(89, 243, 140);
+  background-color: rgba(89, 243, 140, 0.5);
+  border-color:rgb(89, 243, 140,0.7) ;
+}
+
+.btn-2{
+ color:blueviolet ;
+background-color:rgba(138, 43, 226, 0.5);
+border-color: rgba(138, 43, 226, 0.7);
+}
+
