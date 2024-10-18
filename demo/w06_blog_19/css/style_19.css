@@ -79,4 +79,9 @@ letter-spacing: 1px;
   letter-spacing: 1px;
 }
 
+@media screen and (min-width: 550px ){
+  .blogs-center{
+grid-template-columns: 1fr 1fr;
+}
+}
 
